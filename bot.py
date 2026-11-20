@@ -17,7 +17,7 @@
 
 Запуск:
     pip install -r requirements.txt
-    export BOT_TOKEN="123456:ABC..."      # Windows (PowerShell): $env:BOT_TOKEN="..."
+    export BOT_TOKEN="9144967869:AAGS9QSZfigLWUK4dTrLuHrMRwxpyI-xthU"      # Windows (PowerShell): $env:BOT_TOKEN="..."
     export PORT=8080                      # по умолчанию 8080
     python bot.py
 """
@@ -48,7 +48,7 @@ from aiogram.types import (
 # ─────────────────────────────── НАСТРОЙКИ ───────────────────────────────
 
 BOT_NAME = "ПИ1 Расписание"
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = "9144967869:AAGS9QSZfigLWUK4dTrLuHrMRwxpyI-xthU"
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 PORT = int(os.getenv("PORT", "8080"))
 
